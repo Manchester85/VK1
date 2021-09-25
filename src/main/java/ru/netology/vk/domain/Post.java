@@ -2,44 +2,23 @@ package ru.netology.vk.domain;
 
 public class Post {
     private int id;
-    private String logoUrl;
-    private String Header;
-    private String text;
-    private String imageUrl;
-    private String info;
-    private boolean read;
-    private int like;
-    private int share;
-    private int view;
-    private String comments;
-    private int time;
+    private int ownerId;
+    private int fromId;
+    private int createdBy;
     private int date;
-
-
-
-/*public void setDate(int date) {
-    if (date ==  ) {
-
-    }
-
-    this.date = date;
-}
-
-public int getDate() {
-    return date;
-}
-public void setTime(int time) {
-    if (time ==  ) {
-
-    }
-
-    this.time = time;
-}
-
-public int getTime() {
-    return time;
-}
-
-*/
+    private String text;
+    private int replyOwnerId;
+    private int replyPostId;
+    private int friendsOnly;
+    private String postType;
+    private int signerId;
+    private int canPin;
+    private int canDelete;
+    private int canEdit;
+    private int isPinned;
+    private int markedAsAdds;
+    private boolean isFavorite;
+    private int postponedId;
+    // add get/set
 
 }
