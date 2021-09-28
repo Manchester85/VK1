@@ -1,6 +1,7 @@
 package ru.netology.vk.domain;
 
 public class Post {
+    public Post Post;
     private int id;
     private int ownerId;
     private int fromId;

@@ -1,6 +1,7 @@
 package ru.netology.vk.domain;
 
 public class Copyright {
+    private Copyright Copyright;
     private int id;
     private String link;
     private String name;
