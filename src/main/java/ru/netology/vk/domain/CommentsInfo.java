@@ -1,7 +1,7 @@
 package ru.netology.vk.domain;
 
 public class CommentsInfo {
-    private CommentsInfo CommentsInfo;
+
     private int count;
     private int canPost;
     private int groupsCanPost;

@@ -13,7 +13,7 @@ public class PostManager {
 
     }
 
-    public Post[] search(int ownerId, String domain, String query, int ownersOnly, int count, int offset) {
+    public Post[] search(int ownerId, String domain, String query, boolean ownersOnly, int count, int offset) {
 
 
         return null;

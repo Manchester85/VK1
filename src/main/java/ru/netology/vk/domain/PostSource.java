@@ -1,7 +1,7 @@
 package ru.netology.vk.domain;
 
 public class PostSource {
-    private PostSource PostSource;
+
     private String type;
     private String platform;
     private String data;

@@ -1,7 +1,15 @@
 package ru.netology.vk.domain;
 
 public class Post {
-    public Post Post;
+    private CommentsInfo CommentsInfo;
+    private Copyright Copyright;
+    private Donut Donut;
+    private Geo Geo;
+    private LikesInfo LikesInfo;
+    private PlaceHolder PlaceHolder;
+    private PostSource PostSource;
+    private RepostsInfo RepostsInfo;
+    private ViewsInfo ViewsInfo;
     private int id;
     private int ownerId;
     private int fromId;
